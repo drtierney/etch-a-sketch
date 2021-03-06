@@ -8,7 +8,7 @@ function setGridSize(size) {
 function addGridElements(size){
     for (let i = 0; i < size * size; i++) {
         const gridElement = document.createElement("div");
-        gridElement.style.border = "1px solid black";
+        gridElement.style.border = "1px solid transparent";
         gridElement.style.background = "white";
         gridElement.addEventListener("mouseover", changeColor)
         gridContainer.appendChild(gridElement);
