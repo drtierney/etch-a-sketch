@@ -15,8 +15,16 @@ function addGridElements(size){
     }
 }
 
+function randomRGB() {
+    const R = Math.floor(Math.random() * 256);
+    const G = Math.floor(Math.random() * 256);
+    const B = Math.floor(Math.random() * 256);
+
+    return `rgb(${R},${G},${B})`;
+}
+
 function changeColor(e) {
-    e.target.style.background = "black";
+    e.target.style.background = `${randomRGB()}`;
 }
 
 function defaultGrid() {
