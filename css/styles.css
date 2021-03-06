@@ -9,3 +9,7 @@
     margin: auto;
     display: grid;
 }
+
+button {
+    margin: 10px;
+}
