@@ -2,13 +2,10 @@
     text-align: center;
 }
 
-#grid {
+#grid-container {
     border: solid black 2px;
     min-height: 500px;
     max-width:  500px;
     margin: auto;
-}
-
-.filled {
-    background-color: black;
+    display: grid;
 }
